@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kandianneDotKom/static/css/main.34cdb155.css",
+    "main.js": "/kandianneDotKom/static/js/main.5ad3e5c0.js",
+    "index.html": "/kandianneDotKom/index.html",
+    "main.34cdb155.css.map": "/kandianneDotKom/static/css/main.34cdb155.css.map",
+    "main.5ad3e5c0.js.map": "/kandianneDotKom/static/js/main.5ad3e5c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34cdb155.css",
+    "static/js/main.5ad3e5c0.js"
+  ]
+}
