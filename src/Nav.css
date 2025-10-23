@@ -1,0 +1,59 @@
+.Nav {
+  text-align: center;
+  background-color: #200000;
+  color: #ffffff30;
+}
+
+.Site-name {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  font-family: verdana;
+}
+
+.Nav-container {
+  min-height: calc(100vh - 96px);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: white;
+}
+
+.Nav-item {
+  text-align: center;
+  width: 300px;
+  color: #ffffff30;
+  background: linear-gradient(to left, #ffffffa0 20%, #200000 40%, #200000  60%, #ffffffb1 80%);
+  background-size: 200% auto;
+  /* padding: 30px;
+  margin: auto 10px;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  border-color: #ffffff60; */
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+.Page-logo {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  fill: #ffffffa0;
+  stroke: #ffffffa0;
+}
+
